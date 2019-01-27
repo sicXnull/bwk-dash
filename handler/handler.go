@@ -1,7 +1,7 @@
 package handler
 
 import (
-	"github.com/bulwark-crypto/bwk-dash/data"
+	"github.com/sicXnull/posq-dash/data"
 	"github.com/gin-gonic/gin"
 )
 

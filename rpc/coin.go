@@ -17,7 +17,7 @@ import (
 const CoinDefaultHost string = "localhost"
 
 //CoinDefaultPort   default coin port
-const CoinDefaultPort int = 52541 // Bulwark
+const CoinDefaultPort int = 5511 // POSQ
 
 //CoinDefaultProto  default coin protp
 const CoinDefaultProto string = "http"
