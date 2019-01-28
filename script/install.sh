@@ -71,11 +71,11 @@ WantedBy=multi-user.target
 EOL
 sleep 1
 # Get binaries and install.
-wget https://github.com/Poseidon-POSQ/posq-dash/releases/download/$DASH_VER/$DASH_BIN_TAR
+wget https://github.com/sicXnull/posq-dash/releases/download/$DASH_VER/$DASH_BIN_TAR
 sudo tar -zxf $DASH_BIN_TAR -C /usr/local/bin
 rm -f $DASH_BIN_TAR
 # Copy the html files to the dash folder and create.
-wget https://github.com/Poseidon-POSQ/posq-dash/releases/download/$DASH_VER/$DASH_HTML_TAR
+wget https://github.com/sicXnull/posq-dash/releases/download/$DASH_VER/$DASH_HTML_TAR
 sudo mkdir -p /home/posq/dash
 sudo tar -zxf $DASH_HTML_TAR -C /home/posq/dash
 rm -f $DASH_HTML_TAR
@@ -132,7 +132,7 @@ sudo tar -xzf $TARBALLNAME -C /usr/local
 sudo rm $TARBALLNAME
 sleep 3
 cd ~
-sudo chown -R posq:posq /home/posq/posq/
+sudo chown -R posq:posq /home/posq/dash/
 sleep 1
 sudo systemctl enable posqd.service
 sleep 1
